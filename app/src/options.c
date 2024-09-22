@@ -100,6 +100,7 @@ const struct scrcpy_options scrcpy_options_default = {
     .kill_adb_on_close = false,
     .camera_high_speed = false,
     .list = 0,
+    .root = false,
     .window = true,
     .mouse_hover = true,
     .audio_dup = false,
