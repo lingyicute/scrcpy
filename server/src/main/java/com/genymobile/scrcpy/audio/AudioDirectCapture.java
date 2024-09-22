@@ -79,7 +79,7 @@ public class AudioDirectCapture implements AudioCapture {
     }
 
     private static void stopWorkaroundAndroid11() {
-        ServiceManager.getActivityManager().forceStopPackage(FakeContext.PACKAGE_NAME);
+        ServiceManager.getActivityManager().forceStopPackage(FakeContext.PACKAGE_SHELL);
     }
 
     private void tryStartRecording(int attempts, int delayMs) throws AudioCaptureException {

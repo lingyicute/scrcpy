@@ -7,6 +7,7 @@ import com.genymobile.scrcpy.device.Streamer;
 
 import android.media.MediaCodec;
 import android.os.Build;
+import android.system.Os;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
